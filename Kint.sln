@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Backend", "Backend\Backend.vcxproj", "{A7B56625-6AB3-430B-9D0D-4D1B880B6C0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackendWrapper", "Backend\BackendWrapper\BackendWrapper.vcxproj", "{4C6EF9E7-A78E-496D-83DF-7805D2DF297A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7B56625-6AB3-430B-9D0D-4D1B880B6C0C} = {A7B56625-6AB3-430B-9D0D-4D1B880B6C0C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B56625-6AB3-430B-9D0D-4D1B880B6C0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7B56625-6AB3-430B-9D0D-4D1B880B6C0C}.Debug|Win32.Build.0 = Debug|Win32
+		{A7B56625-6AB3-430B-9D0D-4D1B880B6C0C}.Release|Win32.ActiveCfg = Release|Win32
+		{A7B56625-6AB3-430B-9D0D-4D1B880B6C0C}.Release|Win32.Build.0 = Release|Win32
+		{4C6EF9E7-A78E-496D-83DF-7805D2DF297A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C6EF9E7-A78E-496D-83DF-7805D2DF297A}.Debug|Win32.Build.0 = Debug|Win32
+		{4C6EF9E7-A78E-496D-83DF-7805D2DF297A}.Release|Win32.ActiveCfg = Release|Win32
+		{4C6EF9E7-A78E-496D-83DF-7805D2DF297A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

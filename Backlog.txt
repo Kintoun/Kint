@@ -1,0 +1,22 @@
+InProgress:
+	Research mp3 codec libraries	
+	Brush up on C#
+
+Prioritized:	
+	Try a WPF tutorial
+	Install boost
+	
+Unprioritized:
+	Check out WPF Performance Suite - http://windowsclient.net/wpf/perf/wpf-perf-tool.aspx
+
+Completed:
+	Code a sample app that uses C# WPF, C++/CLI wrapper, and unmanaged C++
+	Research how to use C++/CLI with a C# WPF interface
+	Setup GitHub account
+	Install C#
+	Get Notepad++
+	Setup colors from http://studiostyl.es/, using Twilight
+	
+Notes:
+Copy dll from output to GUI
+copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)KintPlayer\bin\$(Configuration)\$(ProjectName).dll"
